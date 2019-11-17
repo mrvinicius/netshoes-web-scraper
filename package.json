@@ -1,0 +1,14 @@
+{
+  "name": "netshoes-web-scraper",
+  "version": "1.0.0",
+  "author": "Vinicius Rocha",
+  "description": "A puppeteer scraper to gather only shoes with substantial number of reviews from Netshoes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-modules --es-module-specifier-resolution=node index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^2.0.0"
+  },
+  "type": "module"
+}
